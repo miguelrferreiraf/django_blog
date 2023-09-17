@@ -20,7 +20,7 @@ Basic home appearance.
 ### Sign up page
 
 This blog uses Django applications that allow the creation of users accounts for commenting posts.
-<div align="center"><img src="https://raw.githubusercontent.com/miguelrferreiraf/django_blog/main/img/singup.png" alt="flask" width="45%" height="54%"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/miguelrferreiraf/django_blog/main/img/singup.png" alt="flask" width="55%" height="55%"></div>
 
 ### WSGI Waitress Server
 
