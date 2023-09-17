@@ -47,4 +47,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_project.settings')
 from whitenoise import WhiteNoise
 application = WhiteNoise(get_wsgi_application())
 ```
+### Running
+
+Run `python server.py`
 
