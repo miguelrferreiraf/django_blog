@@ -49,5 +49,5 @@ application = WhiteNoise(get_wsgi_application())
 ```
 ### Running
 
-Run `python server.py`
+Run `python server.py` and open in `127.0.0.1:8000`
 
