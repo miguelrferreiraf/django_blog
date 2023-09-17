@@ -18,5 +18,5 @@ Basic home appearance.
 <img src="https://raw.githubusercontent.com/miguelrferreiraf/django_blog/main/img/home.png" alt="flask" width="55%" height="55%">
 
 ### Sign up page
-![signup](img/singup.png)
+<img src="https://raw.githubusercontent.com/miguelrferreiraf/django_blog/main/img/singup.png" alt="flask" width="55%" height="55%">
 
