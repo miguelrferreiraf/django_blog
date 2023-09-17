@@ -1,5 +1,7 @@
 # django_blog PROJECT
 
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+
 This project is a relecture of a project I found in a book, that is only available in Mac OS. 
 
 ![django](img/django.png)
