@@ -51,3 +51,21 @@ application = WhiteNoise(get_wsgi_application())
 
 Run `python server.py` and open in `127.0.0.1:8000`
 
+## Apps in `settings.py`
+
+```
+[...]
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    "whitenoise.runserver_nostatic",
+    'django.contrib.staticfiles',
+    "blog.apps.BlogConfig",
+    "accounts.apps.AccountsConfig",
+]
+[...]
+```
+
