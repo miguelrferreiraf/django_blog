@@ -13,6 +13,8 @@ Originally, the project used Gunicorn as WSGI server and Heroku for deploying. U
 I used Waitress and made some alterations in root directory and added a `server.py` archive along with `manage.py` in order to raise a new useble prompt command.
 
 ### Home
+
+Basic home appearance.
 ![home](img/home.png)
 
 ### Sign up page
