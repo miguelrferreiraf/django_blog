@@ -24,7 +24,7 @@ This blog uses Django applications that allow the creation of users accounts for
 
 ### WSGI Waitress Server
 
-We should create a `server.py` at project root directory and its code goes like this:
+We should create a `server.py` in project root directory and its code goes like this:
 
 ```
 from waitress import serve
@@ -33,5 +33,18 @@ from django_project.wsgi import application
     
 if __name__ == '__main__':
     serve(application, port='8000')
+```
+After this, we proceed with alterations in `wsgi.py` archive in order to add Whitenoise static files serving adding Whitenoise `get_wsgi_application()` application.
+
+```
+import os
+
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_project.settings')
+
+# Upgrading in default format into this:
+from whitenoise import WhiteNoise
+application = WhiteNoise(get_wsgi_application())
 ```
 
