@@ -15,9 +15,7 @@ I used Waitress and made some alterations in root directory and added a `server.
 ### Home
 
 Basic home appearance.
-![home](img/home.png)
-
-<img src="https://raw.githubusercontent.com/miguelrferreiraf/django_blog/main/img/home.png" alt="flask" width="35%" height="35%">
+<img src="https://raw.githubusercontent.com/miguelrferreiraf/django_blog/main/img/home.png" alt="flask" width="55%" height="55%">
 
 ### Sign up page
 ![signup](img/singup.png)
