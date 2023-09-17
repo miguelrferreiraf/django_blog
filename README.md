@@ -22,3 +22,14 @@ Basic home appearance.
 This blog uses Django applications that allow the creation of users accounts for commenting posts.
 <img src="https://raw.githubusercontent.com/miguelrferreiraf/django_blog/main/img/singup.png" alt="flask" width="55%" height="55%">
 
+### WSGI Waitress Server
+
+We should create a `server.py` at project root directory and its code goes like this:
+
+`from waitress import serve
+    
+from django_project.wsgi import application
+    
+if __name__ == '__main__':
+    serve(application, port='8000')`
+
