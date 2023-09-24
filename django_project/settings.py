@@ -75,6 +75,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'django_project.wsgi.application'
 
 
+
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
@@ -132,3 +133,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
+
